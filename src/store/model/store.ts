@@ -34,7 +34,10 @@ export type Brand =
   | 'sony'
   | 'xfx'
   | 'powercolor'
-  | 'zotac';
+  | 'zotac'
+  | 'panini'
+  | 'donruss'
+  | 'pokemon';
 
 export type Series =
   | 'test:series'
@@ -57,7 +60,13 @@ export type Series =
   | 'sonyps5de'
   | 'sf'
   | 'xboxsx'
-  | 'xboxss';
+  | 'xboxss'
+  | 'mega'
+  | 'fatpack'
+  | 'blaster'
+  | 'tin'
+  | 'hanger'
+  | 'etb';
 
 export type Model =
   | 'test:model'
@@ -197,7 +206,15 @@ export type Model =
   | 'xlr8 revel'
   | 'xlr8 uprising'
   | 'xtreme'
-  | 'qick';
+  | 'qick'
+  | 'nbaprizm'
+  | 'nflselect'
+  | 'soccerprizm'
+  | 'nfloptic'
+  | 'nba'
+  | 'charizard'
+  | 'shiningfates'
+  | 'ufcprizm';
 
 export type Link = {
   brand: Brand;
